@@ -1,0 +1,23 @@
+[
+  {
+    "id": "r1",
+    "ownerUserId": "user1",
+    "title": "Employment Check",
+    "status": "Completed",
+    "createdAt": "2026-02-10"
+  },
+  {
+    "id": "r2",
+    "ownerUserId": "user1",
+    "title": "Court Verification",
+    "status": "In Progress",
+    "createdAt": "2026-02-11"
+  },
+  {
+    "id": "r3",
+    "ownerUserId": "admin",
+    "title": "Admin Audit Record",
+    "status": "Completed",
+    "createdAt": "2026-02-12"
+  }
+]

@@ -1,0 +1,22 @@
+### Health Check
+GET http://localhost:5000/
+
+### Login as Admin
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "userId": "admin",
+  "password": "admin123",
+  "role": "Admin"
+}
+
+### Login as General User
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "userId": "user1",
+  "password": "user123",
+  "role": "General User"
+}
